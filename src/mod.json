@@ -11,10 +11,10 @@
 	"Version" : "1.0",
 	"CustomScripts": [
 		{
-			"Path": "sh_noclip",
+			"Path": "sh_noclip.nut",
 			"RunOn": "SERVER || CLIENT",
-			"ClientCallback" : "Spawnmenu_Init",
-			"ServerCallback": "Spawnmenu_Init"
+			"ClientCallback" : "Noclip_Init",
+			"ServerCallback": "Noclip_Init"
 		},
 	],
 }
