@@ -1,0 +1,20 @@
+{
+	"ApiId" : "noclipmod",
+	"Name" : "Just Noclip",
+	"Description" : "Just the noclip mod for icepick",
+	"Authors" : [
+		"Tristan Kennedy"
+	],
+	"Contacts" : [
+		"tristan@taskinoz.com"
+	],
+	"Version" : "1.0",
+	"CustomScripts": [
+		{
+			"Path": "sh_noclip",
+			"RunOn": "SERVER || CLIENT",
+			"ClientCallback" : "Spawnmenu_Init",
+			"ServerCallback": "Spawnmenu_Init"
+		},
+	],
+}
